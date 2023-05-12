@@ -1,0 +1,1326 @@
+{
+  "mockDataAdmin": [
+    {
+      "id": 1,
+      "firstName": "Jon",
+      "lastName": "Snow",
+      "email": "jonsnow@gmail.com",
+      "phone": "(665)121-5454",
+      "role": "admin",
+      "status": "Active",
+      "password": ""
+    },
+    {
+      "id": 2,
+      "firstName": "Cersei",
+      "lastName": "Lannister",
+      "email": "cerseilannister@gmail.com",
+      "phone": "(421)314-2288",
+      "role": "manager",
+      "status": "active",
+      "password": ""
+    },
+    {
+      "id": 3,
+      "firstName": "Jaime",
+      "lastName": "Lannister",
+      "email": "jaimelannister@gmail.com",
+      "phone": "(422)982-6739",
+      "role": "manager",
+      "status": "active",
+      "password": "21.shalom.AT"
+    },
+    {
+      "id": 4,
+      "firstName": "Anya",
+      "lastName": "Stark",
+      "email": "anyastark@gmail.com",
+      "phone": "(921)425-6742",
+      "role": "admin",
+      "status": "Active",
+      "password": ""
+    },
+    {
+      "id": 5,
+      "firstName": "Daenerys",
+      "lastName": "Targaryen",
+      "email": "daenerystargaryen@gmail.com",
+      "phone": "(421)445-1189",
+      "role": "support",
+      "status": "Active",
+      "password": ""
+    },
+    {
+      "id": 6,
+      "firstName": "Ever",
+      "lastName": "Melisandre",
+      "email": "evermelisandre@gmail.com",
+      "phone": "(232)545-6483",
+      "role": "manager",
+      "status": "Active",
+      "password": ""
+    },
+    {
+      "id": 7,
+      "firstName": "Ferrara",
+      "lastName": "Clifford",
+      "email": "ferraraclifford@gmail.com",
+      "phone": "(543)124-0123",
+      "role": "support",
+      "status": "Active",
+      "password": ""
+    },
+    {
+      "id": 8,
+      "firstName": "Rossini",
+      "lastName": "Frances",
+      "email": "rossinifrances@gmail.com",
+      "phone": "(222)444-5555",
+      "role": "support",
+      "status": "Inactive",
+      "password": ""
+    },
+    {
+      "id": 9,
+      "firstName": "Harvey",
+      "lastName": "Roxie",
+      "email": "harveyroxie@gmail.com",
+      "phone": "(444)555-6239",
+      "role": "admin",
+      "status": "Inactive",
+      "password": ""
+    }
+  ],
+  "mockDataDrivers": [
+    {
+      "id": 1,
+      "firstName": "Jon",
+      "lastName": "Snow",
+      "email": "jonsnow@gmail.com",
+      "phone": "(665)121-5454",
+      "address": "0912 Won Street, Alabama, SY 10001",
+      "status": "active",
+      "rating": 4.5,
+      "rides": {
+        "booked": 10011,
+        "completed": 8643,
+        "declined": 324,
+        "cancelled": 35
+      },
+      "earnings": {
+        "today": 3512,
+        "total": 123512,
+        "week": 23723,
+        "month": 39832
+      },
+      "vehicles": [
+        {
+          "license": "ABC-123DE",
+          "type": "Sedan",
+          "make": "Honda",
+          "model": "Civic",
+          "year": 2012,
+          "color": "Grey",
+          "id": 1
+        }
+      ],
+      "documents": {
+        "driversLicense": "license",
+        "carRegistration": "carReg"
+      }
+    },
+    {
+      "id": 2,
+      "firstName": "Cersei",
+      "lastName": "Lannister",
+      "email": "cerseilannister@gmail.com",
+      "phone": "(421)314-2288",
+      "address": "1234 Main Street, New York, NY 10001",
+      "status": "active",
+      "rating": 4.7,
+      "rides": {
+        "booked": 13151,
+        "completed": 8643,
+        "declined": 131,
+        "cancelled": 42
+      },
+      "earnings": {
+        "today": 3512,
+        "total": 123512,
+        "week": 23723,
+        "month": 39832
+      },
+      "vehicles": [
+        {
+          "license": "ABC-123DE",
+          "type": "Sedan",
+          "make": "Toyota",
+          "model": "Camry",
+          "year": 2010,
+          "color": "Black",
+          "id": 1
+        }
+      ],
+      "documents": {
+        "driversLicense": "license",
+        "carRegistration": "carReg"
+      }
+    },
+    {
+      "id": 3,
+      "firstName": "Jaime",
+      "lastName": "Lannister",
+      "email": "jaimelannister@gmail.com",
+      "phone": "(422)982-6739",
+      "address": "3333 Want Blvd, Estanza, NAY 42125",
+      "status": "active",
+      "rating": 5,
+      "rides": {
+        "booked": 15634,
+        "completed": 12341,
+        "declined": 233,
+        "cancelled": 45
+      },
+      "earnings": {
+        "today": 3512,
+        "total": 123512,
+        "week": 23723,
+        "month": 39832
+      },
+      "vehicles": [
+        {
+          "license": "ABC-123DE",
+          "type": "Sedan",
+          "make": "Toyota",
+          "model": "Corolla",
+          "year": 2010,
+          "color": "grey",
+          "id": 1
+        },
+        {
+          "license": "ABC-123DE",
+          "type": "Sedan",
+          "make": "Toyota",
+          "model": "Camry",
+          "year": 2012,
+          "color": "Blue"
+        }
+      ],
+      "documents": {
+        "driversLicense": "license",
+        "carRegistration": "carReg"
+      }
+    },
+    {
+      "id": 4,
+      "firstName": "Anya",
+      "lastName": "Stark",
+      "email": "anyastark@gmail.com",
+      "phone": "(921)425-6742",
+      "address": "1514 Main Street, New York, NY 22298",
+      "status": "active",
+      "rating": 4.5,
+      "rides": {
+        "booked": 15551,
+        "completed": 13453,
+        "declined": 645,
+        "cancelled": 16
+      },
+      "earnings": {
+        "today": 3512,
+        "total": 123512,
+        "week": 23723,
+        "month": 39832
+      },
+      "vehicles": [
+        {
+          "license": "ABC-123DE",
+          "type": "Sedan",
+          "make": "Toyota",
+          "model": "Camry",
+          "year": 2012,
+          "color": "Gold",
+          "id": 1
+        }
+      ],
+      "documents": {
+        "driversLicense": "license",
+        "carRegistration": "carReg"
+      }
+    },
+    {
+      "id": 5,
+      "firstName": "Daenerys",
+      "lastName": "Targaryen",
+      "email": "daenerystargaryen@gmail.com",
+      "phone": "(421)445-1189",
+      "address": "11122 Welping Ave, Tenting, CD 21321",
+      "status": "active",
+      "rating": 4,
+      "rides": {
+        "booked": 2345,
+        "completed": 1231,
+        "declined": 131,
+        "cancelled": 31
+      },
+      "earnings": {
+        "today": 3512,
+        "total": 123512,
+        "week": 23723,
+        "month": 39832
+      },
+      "vehicles": [
+        {
+          "license": "ABC-123DE",
+          "type": "SUV",
+          "make": "Mercedes",
+          "model": "Matic",
+          "year": 2008,
+          "color": "White",
+          "id": 5
+        }
+      ],
+      "documents": {
+        "driversLicense": "license",
+        "carRegistration": "carReg"
+      }
+    },
+    {
+      "id": 6,
+      "firstName": "Ever",
+      "lastName": "Melisandre",
+      "email": "evermelisandre@gmail.com",
+      "phone": "(232)545-6483",
+      "address": "1234 Canvile Street, Esvazark, NY 10001",
+      "status": "active",
+      "rating": 4.9,
+      "rides": {
+        "booked": 8262,
+        "completed": 7653,
+        "declined": 546,
+        "cancelled": 150
+      },
+      "earnings": {
+        "today": 3512,
+        "total": 123512,
+        "week": 23723,
+        "month": 39832
+      },
+      "vehicles": [
+        {
+          "license": "ABC-123DE",
+          "type": "SUV",
+          "make": "Toyota",
+          "model": "Highlander",
+          "year": 2011,
+          "color": "Black",
+          "id": 1
+        }
+      ],
+      "documents": {
+        "driversLicense": "license",
+        "carRegistration": "carReg"
+      }
+    },
+    {
+      "id": 7,
+      "firstName": "Ferrara",
+      "lastName": "Clifford",
+      "email": "ferraraclifford@gmail.com",
+      "phone": "(543)124-0123",
+      "address": "22215 Super Street, Everting, ZO 515234",
+      "status": "deleted",
+      "rating": 4.8,
+      "rides": {
+        "booked": 11232,
+        "completed": 10123,
+        "declined": 897,
+        "cancelled": 44
+      },
+      "earnings": {
+        "today": 3512,
+        "total": 123512,
+        "week": 23723,
+        "month": 39832
+      },
+      "vehicles": [
+        {
+          "license": "ABC-123DE",
+          "type": "Sedan",
+          "make": "Honda",
+          "model": "Civic",
+          "year": 2010,
+          "color": "Black",
+          "id": 1
+        }
+      ],
+      "documents": {
+        "driversLicense": "license",
+        "carRegistration": "carReg"
+      }
+    },
+    {
+      "id": 8,
+      "firstName": "Rossini",
+      "lastName": "Frances",
+      "email": "rossinifrances@gmail.com",
+      "phone": "(222)444-5555",
+      "address": "4123 Ever Blvd, Wentington, AD 142213",
+      "status": "active",
+      "rating": 4.8,
+      "rides": {
+        "booked": 7652,
+        "completed": 6757,
+        "declined": 234,
+        "cancelled": 36
+      },
+      "earnings": {
+        "today": 3512,
+        "total": 123512,
+        "week": 23723,
+        "month": 39832
+      },
+      "vehicles": [
+        {
+          "license": "ABC-123DE",
+          "type": "Sedan",
+          "make": "Toyota",
+          "model": "Matrix",
+          "year": 2012,
+          "color": "Blue",
+          "id": 1
+        }
+      ],
+      "documents": {
+        "driversLicense": "license",
+        "carRegistration": "carReg"
+      }
+    },
+    {
+      "id": 9,
+      "firstName": "Harvey",
+      "lastName": "Roxie",
+      "email": "harveyroxie@gmail.com",
+      "phone": "(444)555-6239",
+      "address": "51234 Avery Street, Cantory, ND 212412",
+      "status": "active",
+      "rating": 4.6,
+      "rides": {
+        "booked": 11002,
+        "completed": 10554,
+        "declined": 122,
+        "cancelled": 65
+      },
+      "earnings": {
+        "today": 3512,
+        "total": 123512,
+        "week": 23723,
+        "month": 39832
+      },
+      "vehicles": [
+        {
+          "license": "ABC-123DE",
+          "type": "Sedan",
+          "make": "Toyota",
+          "model": "Camry",
+          "year": 2005,
+          "color": "Black",
+          "id": 1
+        }
+      ],
+      "documents": {
+        "driversLicense": "license",
+        "carRegistration": "carReg"
+      }
+    },
+    {
+      "id": 10,
+      "firstName": "Enteri",
+      "lastName": "Redack",
+      "email": "enteriredack@gmail.com",
+      "phone": "(222)444-5555",
+      "address": "4123 Easer Blvd, Wentington, AD 142213",
+      "status": "inactive",
+      "rating": 4.2,
+      "rides": {
+        "booked": 10423,
+        "completed": 9985,
+        "declined": 654,
+        "cancelled": 42
+      },
+      "earnings": {
+        "today": 3512,
+        "total": 123512,
+        "week": 23723,
+        "month": 39832
+      },
+      "vehicles": [
+        {
+          "license": "ABC-123DE",
+          "type": "Sedan",
+          "make": "Toyota",
+          "model": "Camry",
+          "year": 2010,
+          "color": "Black",
+          "id": 1
+        }
+      ],
+      "documents": {
+        "driversLicense": "license",
+        "carRegistration": "carReg"
+      }
+    },
+    {
+      "id": 11,
+      "firstName": "Steve",
+      "lastName": "Goodman",
+      "email": "stevegoodmane@gmail.com",
+      "phone": "(444)555-6239",
+      "address": "51234 Fiveton Street, CunFory, ND 212412",
+      "status": "suspended",
+      "rating": 4,
+      "rides": {
+        "booked": 11122,
+        "completed": 11001,
+        "declined": 788,
+        "cancelled": 11
+      },
+      "earnings": {
+        "today": 3512,
+        "total": 123512,
+        "week": 23723,
+        "month": 39832
+      },
+      "vehicles": [
+        {
+          "license": "ABC-123DE",
+          "type": "Sedan",
+          "make": "Toyota",
+          "model": "Corolla",
+          "year": 2008,
+          "color": "Black",
+          "id": 1
+        }
+      ],
+      "documents": {
+        "driversLicense": "license",
+        "carRegistration": "carReg"
+      }
+    }
+  ],
+  "mockDataPassengers": [
+    {
+      "id": 1,
+      "name": "Jon Snow",
+      "email": "jonsnow@gmail.com",
+      "status": "active",
+      "totalRides": 21,
+      "totalFares": 11122,
+      "phone": "(665)121-5454",
+      "date": "2022-03-02T13:37:27+00:00"
+    },
+    {
+      "id": 2,
+      "name": "Cersei Lannister",
+      "email": "cerseilannister@gmail.com",
+      "status": "suspended",
+      "totalRides": 124,
+      "totalFares": 23453,
+      "phone": "(421)314-2288",
+      "date": "2022-06-15T13:37:27+00:00"
+    },
+    {
+      "id": 3,
+      "name": "Jaime Lannister",
+      "email": "jaimelannister@gmail.com",
+      "status": "active",
+      "totalRides": 11,
+      "totalFares": 2313,
+      "phone": "(422)982-6739",
+      "date": "2022-05-02T13:37:27+00:00"
+    },
+    {
+      "id": 4,
+      "name": "Arya Stark",
+      "email": "aryastark@gmail.com",
+      "status": "active",
+      "totalRides": 80,
+      "totalFares": 67688,
+      "phone": "(921)425-6742",
+      "date": "2021-03-21T13:37:27+00:00"
+    },
+    {
+      "id": 5,
+      "name": "Daenerys Targaryen",
+      "email": "daenerystargaryen@gmail.com",
+      "status": "suspended",
+      "totalRides": 124,
+      "totalFares": 11223,
+      "phone": "(421)445-1189",
+      "date": "2021-01-11T13:37:27+00:00"
+    },
+    {
+      "id": 6,
+      "name": "Ever Melisandre",
+      "email": "evermelisandre@gmail.com",
+      "status": "active",
+      "totalRides": 63,
+      "totalFares": 34533,
+      "phone": "(232)545-6483",
+      "date": "2022-11-02T13:37:27+00:00"
+    },
+    {
+      "id": 7,
+      "name": "Ferrara Clifford",
+      "email": "ferraraclifford@gmail.com",
+      "status": "deleted",
+      "totalRides": 52,
+      "totalFares": 69655,
+      "phone": "(543)124-0123",
+      "date": "2022-02-11T13:37:27+00:00"
+    },
+    {
+      "id": 8,
+      "name": "Rossini Frances",
+      "email": "rossinifrances@gmail.com",
+      "status": "deleted",
+      "totalRides": 21,
+      "totalFares": 67896,
+      "phone": "(222)444-5555",
+      "date": "2021-05-02T13:37:27+00:00"
+    }
+  ],
+  "mockDataReviews": [
+    {
+      "id": 1,
+      "bookingId": 4266586513,
+      "passengerName": "Jon Snow",
+      "driverName": "Rossini Frances",
+      "madeBy": "Driver",
+      "rating": 5,
+      "comment": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus explicabo tempora distinctio voluptates voluptatem quam.",
+      "date": "2022-03-12T13:37:27+00:00"
+    },
+    {
+      "id": 2,
+      "bookingId": 1163904090,
+      "passengerName": "Cersei Lannister",
+      "driverName": "Rossini Frances",
+      "madeBy": "Passenger",
+      "rating": 4.8,
+      "comment": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus explicabo tempora distinctio voluptates voluptatem quam.",
+      "date": "2021-06-15T13:37:27+00:00"
+    },
+    {
+      "id": 3,
+      "bookingId": 4833588185,
+      "passengerName": "Jaime Lannister",
+      "driverName": "Rossini Frances",
+      "madeBy": "Passenger",
+      "rating": 4.5,
+      "comment": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus explicabo tempora distinctio voluptates voluptatem quam.",
+      "date": "2022-05-02T13:37:27+00:00"
+    },
+    {
+      "id": 4,
+      "bookingId": 8700530562,
+      "passengerName": "Anya Stark",
+      "driverName": "Ferrara Clifford",
+      "madeBy": "Passenger",
+      "rating": 4,
+      "comment": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus explicabo tempora distinctio voluptates voluptatem quam.",
+      "date": "2022-03-21T13:37:27+00:00"
+    },
+    {
+      "id": 5,
+      "bookingId": 5841807036,
+      "passengerName": "Daenerys Targaryen",
+      "driverName": "Rossini Frances",
+      "madeBy": "Passenger",
+      "rating": 5,
+      "comment": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus explicabo tempora distinctio voluptates voluptatem quam.",
+      "date": "2021-01-12T13:37:27+00:00"
+    },
+    {
+      "id": 6,
+      "bookingId": 6735585256,
+      "passengerName": "Daenerys Targaryen",
+      "driverName": "Rossini Frances",
+      "madeBy": "Passenger",
+      "rating": 5,
+      "comment": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus explicabo tempora distinctio voluptates voluptatem quam.",
+      "date": "2022-02-11T13:37:27+00:00"
+    },
+    {
+      "id": 7,
+      "bookingId": 2614351273,
+      "passengerName": "Daenerys Targaryen",
+      "driverName": "Rossini Frances",
+      "madeBy": "Driver",
+      "rating": 5,
+      "comment": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus explicabo tempora distinctio voluptates voluptatem quam.",
+      "date": "2022-11-02T13:37:27+00:00"
+    },
+    {
+      "id": 8,
+      "bookingId": 3598112940,
+      "passengerName": "Rossini Frances",
+      "driverName": "Ever Melisandre",
+      "madeBy": "Driver",
+      "rating": 5,
+      "comment": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus explicabo tempora distinctio voluptates voluptatem quam.",
+      "date": "2021-02-05T13:37:27+00:00"
+    }
+  ],
+  "mockDataRides": [
+    {
+      "id": 1,
+      "bookingId": 3633010231,
+      "passengerName": "Jon Snow",
+      "driverName": "Rossini Frances",
+      "pickUp": "11, Oremeta Street, Oregun",
+      "dropOff": "74, Lambo Lasunwan Road, First Gate",
+      "status": "Completed",
+      "price": 6500,
+      "date": "2022-12-03T13:37:27+00:00"
+    },
+    {
+      "id": 2,
+      "bookingId": 6874028738,
+      "passengerName": "Cersei Lannister",
+      "driverName": "Rossini Frances",
+      "pickUp": "12 Babtunde Ayo Mogaji",
+      "dropOff": "3A, Medical Rd., (Simbiat Abiola) Ikeja",
+      "status": "Completed",
+      "price": 6500,
+      "date": "2021-06-15T13:37:27+00:00"
+    },
+    {
+      "id": 3,
+      "bookingId": 5305694079,
+      "passengerName": "Jaime Lannister",
+      "driverName": "Rossini Frances",
+      "pickUp": "73 Ogunlana Drive",
+      "dropOff": "17 Oluyonbo Str Ikosi Ketu, Ikorodu",
+      "status": "Cancelled",
+      "price": 6500,
+      "date": "2022-05-02T13:37:27+00:00"
+    },
+    {
+      "id": 4,
+      "bookingId": 3873089353,
+      "passengerName": "Anya Stark",
+      "driverName": "Ferrara Clifford",
+      "pickUp": "37, Gbasemo Street, Aga",
+      "dropOff": "1376 Tiamiyu Savage, Off Ahmadu Bello Way",
+      "status": "Declined",
+      "price": 6500,
+      "date": "2022-03-21T13:37:27+00:00"
+    },
+    {
+      "id": 5,
+      "bookingId": 3643940055,
+      "passengerName": "Daenerys Targaryen",
+      "driverName": "Rossini Frances",
+      "pickUp": "37, Gbasemo Street, Aga",
+      "dropOff": "32, Balarabe Musa Crescent, V/I",
+      "status": "Completed",
+      "price": 6500,
+      "date": "2021-12-01T13:37:27+00:00"
+    },
+    {
+      "id": 6,
+      "bookingId": 6105279757,
+      "passengerName": "Daenerys Targaryen",
+      "driverName": "Rossini Frances",
+      "pickUp": "Amuwo Odofin Industrial Scheme, Exp.way, Oshodi",
+      "status": "Completed",
+      "dropOff": "10 Park Lane GRA",
+      "price": 6500,
+      "date": "2022-02-11T13:37:27+00:00"
+    },
+    {
+      "id": 7,
+      "bookingId": 1482783238,
+      "passengerName": "Daenerys Targaryen",
+      "driverName": "Rossini Frances",
+      "pickUp": "19, Club Road, Ikoyi",
+      "dropOff": "29A, Admiralty Way, Lekki Phase I",
+      "status": "Cancelled",
+      "price": 6500,
+      "date": "2022-11-02T13:37:27+00:00"
+    },
+    {
+      "id": 8,
+      "bookingId": 4266586513,
+      "passengerName": "Rossini Frances",
+      "driverName": "Ever Melisandre",
+      "pickUp": "Open Arcade Events Centre, Surulere",
+      "status": "Completed",
+      "dropOff": "18, Isaac John, G.R.A",
+      "price": 6500,
+      "date": "2021-02-05T13:37:27+00:00"
+    }
+  ],
+  "mockDataCarTypes": [
+    {
+      "id": 1,
+      "vehicleIcon": "./assets/cars/standard.png",
+      "vehicleName": "Standard",
+      "pricePerKm": 5,
+      "costPerKm": 5,
+      "baseFare": 300,
+      "commission": "10",
+      "capacity": 4
+    },
+    {
+      "id": 2,
+      "vehicleIcon": "/assets/cars/van.png",
+      "vehicleName": "Van",
+      "pricePerKm": 7,
+      "costPerKm": 7,
+      "baseFare": 300,
+      "commission": 12,
+      "capacity": 6
+    },
+    {
+      "id": 3,
+      "vehicleIcon": "/assets/cars/exec.png",
+      "vehicleName": "Executive",
+      "pricePerKm": 10,
+      "costPerKm": 10,
+      "baseFare": 300,
+      "commission": "15",
+      "capacity": 2,
+      "ticketNo": 6671767533,
+      "name": "Jaime Lannister",
+      "assignedTo": "Daenerys Targaryen",
+      "subject": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "status": "New",
+      "role": "Driver",
+      "date": "2022-03-12T13:37:27+00:00",
+      "history": [
+        {
+          "date": "2022-03-12T13:37:27+00:00",
+          "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit, tenetur!",
+          "messageBy": "client"
+        },
+        {
+          "date": "2022-03-21T13:37:27+00:00",
+          "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, tenetur!",
+          "messageBy": "support"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "vehicleIcon": "/assets/cars/SUV.png",
+      "vehicleName": "SUV",
+      "pricePerKm": 15,
+      "costPerKm": 15,
+      "baseFare": 300,
+      "commission": "20",
+      "capacity": 4,
+      "promoCode": "TBTHURSDAY",
+      "activationDate": "2023-04-22",
+      "expiryDate": "2023-07-05",
+      "discount": "20",
+      "usageLimit": 2000,
+      "usedCount": 12,
+      "status": "inactive",
+      "discountType": "percentage"
+    }
+  ],
+  "mockDataPromoCode": [
+    {
+      "id": 1,
+      "promoCode": "NEW2023",
+      "activationDate": "2023-04-22",
+      "expiryDate": "2023-07-05",
+      "discount": "20",
+      "usageLimit": 2000,
+      "usedCount": 100,
+      "status": "active",
+      "discountType": "percentage"
+    },
+    {
+      "id": 2,
+      "promoCode": "JUNE23",
+      "activationDate": "2023-04-22",
+      "expiryDate": "2023-07-05",
+      "discount": "20",
+      "usageLimit": 2000,
+      "usedCount": 245,
+      "status": "active",
+      "discountType": "percentage"
+    },
+    {
+      "id": 3,
+      "promoCode": "BLACKFRIDAY",
+      "activationDate": "2023-04-22",
+      "expiryDate": "2023-07-05",
+      "discount": "800",
+      "usageLimit": 2000,
+      "usedCount": 4,
+      "status": "active",
+      "discountType": "cash"
+    },
+    {
+      "id": 4,
+      "promoCode": "TBTHURSDAY",
+      "activationDate": "2023-04-22",
+      "expiryDate": "2023-07-05",
+      "discount": "200",
+      "usageLimit": 2000,
+      "usedCount": 12,
+      "status": "active",
+      "discountType": "cash"
+    },
+    {
+      "id": 5,
+      "promoCode": "MARCH23",
+      "activationDate": "2023-04-22",
+      "expiryDate": "2023-07-05",
+      "discount": "20",
+      "usageLimit": 2000,
+      "usedCount": 500,
+      "status": "inactive",
+      "discountType": "percentage"
+    },
+    {
+      "id": 6,
+      "promoCode": "200XTG",
+      "activationDate": "2023-04-22",
+      "expiryDate": "2023-07-05",
+      "discount": "20",
+      "usageLimit": 2000,
+      "usedCount": 156,
+      "status": "active",
+      "discountType": "percentage"
+    },
+    {
+      "id": 7,
+      "promoCode": "15PER23",
+      "activationDate": "2023-04-22",
+      "expiryDate": "2023-07-05",
+      "discount": "20",
+      "usageLimit": 2000,
+      "usedCount": 1213,
+      "status": "active",
+      "discountType": "percentage"
+    },
+    {
+      "id": 8,
+      "promoCode": "100MARCH",
+      "activationDate": "2023-04-22",
+      "expiryDate": "2023-07-05",
+      "discount": "20",
+      "usageLimit": 2000,
+      "usedCount": 345,
+      "status": "inactive",
+      "discountType": "percentage"
+    }
+  ],
+  "mockDataPayment": [
+    {
+      "id": 1,
+      "bookingId": 4266586513,
+      "passengerName": "Rossini Frances",
+      "driverName": "Ever Melisandre",
+      "paymentType": "cash",
+      "commissionAmount": 800,
+      "totalPrice": 6500,
+      "date": "2022-02-05T13:37:27+00:00"
+    },
+    {
+      "id": 2,
+      "bookingId": 1482783238,
+      "passengerName": "Cersei Lannister",
+      "driverName": "Rossini Frances",
+      "paymentType": "cash",
+      "commissionAmount": 800,
+      "totalPrice": 6500,
+      "date": "2021-04-05T13:37:27+00:00"
+    },
+    {
+      "id": 3,
+      "bookingId": 6105279757,
+      "passengerName": "Jaime Lannister",
+      "driverName": "Rossini Frances",
+      "paymentType": "cash",
+      "commissionAmount": 800,
+      "totalPrice": 6500,
+      "date": "2021-02-12T13:37:27+00:00"
+    },
+    {
+      "id": 4,
+      "bookingId": 3643940055,
+      "passengerName": "Anya Stark",
+      "driverName": "Ferrara Clifford",
+      "paymentType": "cash",
+      "commissionAmount": 800,
+      "totalPrice": 6500,
+      "date": "2021-03-05T13:37:27+00:00"
+    },
+    {
+      "id": 5,
+      "bookingId": 3633010231,
+      "passengerName": "Daenerys Targaryen",
+      "driverName": "Rossini Frances",
+      "paymentType": "cash",
+      "commissionAmount": 800,
+      "totalPrice": 6500,
+      "date": "2021-07-05T13:37:27+00:00"
+    },
+    {
+      "id": 6,
+      "bookingId": 6874028738,
+      "passengerName": "Jaime Lannister",
+      "driverName": "Rossini Frances",
+      "paymentType": "Card",
+      "commissionAmount": 800,
+      "totalPrice": 6500,
+      "date": "2022-08-05T13:37:27+00:00"
+    },
+    {
+      "id": 7,
+      "bookingId": 3633010231,
+      "passengerName": "Rossini Frances",
+      "driverName": "Ever Melisandre",
+      "paymentType": "Card",
+      "commissionAmount": 800,
+      "totalPrice": 6500,
+      "date": "2021-01-05T13:37:27+00:00"
+    },
+    {
+      "id": 8,
+      "bookingId": 4266586513,
+      "passengerName": "Rossini Frances",
+      "driverName": "Ever Melisandre",
+      "paymentType": "cash",
+      "commissionAmount": 800,
+      "totalPrice": 6500,
+      "date": "2021-02-05T17:37:27+00:00"
+    }
+  ],
+  "mockDataNotifications": [
+    {
+      "id": 1,
+      "type": "all_drivers",
+      "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, tenetur!",
+      "date": "2023-01-12T13:37:27+00:00"
+    },
+    {
+      "id": 2,
+      "type": "all_passengers",
+      "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, tenetur!",
+      "date": "2023-01-12T13:37:27+00:00"
+    },
+    {
+      "id": 3,
+      "type": "drivers_and_passengers",
+      "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, tenetur!",
+      "date": "2023-01-12T13:37:27+00:00"
+    },
+    {
+      "id": 4,
+      "type": "all_passengers",
+      "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, tenetur!",
+      "date": "2023-01-12T13:37:27+00:00"
+    },
+    {
+      "type": "drivers_and_passengers",
+      "message": "This is a new message",
+      "date": "2023-05-08T17:27:55.463Z",
+      "id": 5
+    },
+    {
+      "type": "all_passengers",
+      "message": "asin ehh",
+      "date": "2023-05-08T22:18:41.614Z",
+      "id": 6
+    },
+    {
+      "type": "all_drivers",
+      "message": "Another Message",
+      "date": "2023-05-08T22:19:01.201Z",
+      "id": 7
+    }
+  ],
+  "mockDataSupportTicket": [
+    {
+      "id": 1,
+      "ticketNo": 1882354719,
+      "name": "Jon Snow",
+      "assignedTo": "Daenerys Targaryen",
+      "subject": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "status": "New",
+      "role": "Driver",
+      "date": "2022-03-12T13:37:27+00:00",
+      "history": [
+        {
+          "date": "2022-03-12T13:37:27+00:00",
+          "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit, tenetur!",
+          "messageBy": "client"
+        },
+        {
+          "date": "2022-03-21T13:37:27+00:00",
+          "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, tenetur!",
+          "messageBy": "support"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "ticketNo": 2981540272,
+      "name": "Cersei Lannister",
+      "assignedTo": "Rossini Frances",
+      "subject": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "status": "New",
+      "role": "Driver",
+      "date": "2022-03-12T13:37:27+00:00",
+      "history": [
+        {
+          "date": "2022-03-12T13:37:27+00:00",
+          "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit, tenetur!",
+          "messageBy": "client"
+        },
+        {
+          "date": "2022-03-21T13:37:27+00:00",
+          "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, tenetur!",
+          "messageBy": "support"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "ticketNo": 6671767533,
+      "name": "Jaime Lannister",
+      "assignedTo": "Daenerys Targaryen",
+      "subject": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "status": "New",
+      "role": "Driver",
+      "date": "2022-03-12T13:37:27+00:00",
+      "history": [
+        {
+          "date": "2022-03-12T13:37:27+00:00",
+          "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit, tenetur!",
+          "messageBy": "client"
+        },
+        {
+          "date": "2022-03-21T13:37:27+00:00",
+          "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, tenetur!",
+          "messageBy": "support"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "ticketNo": 7459975081,
+      "name": "Anya Stark",
+      "assignedTo": "Daenerys Targaryen",
+      "subject": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "status": "New",
+      "role": "Passenger",
+      "date": "2022-03-12T13:37:27+00:00",
+      "history": [
+        {
+          "date": "2022-03-12T13:37:27+00:00",
+          "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit, tenetur!",
+          "messageBy": "client"
+        },
+        {
+          "date": "2022-03-21T13:37:27+00:00",
+          "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, tenetur!",
+          "messageBy": "support"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "ticketNo": 9631312010,
+      "name": "Daenerys Targaryen",
+      "assignedTo": "Rossini Frances",
+      "subject": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "status": "Resolved",
+      "role": "Driver",
+      "date": "2022-03-12T13:37:27+00:00",
+      "history": [
+        {
+          "date": "2022-03-12T13:37:27+00:00",
+          "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit, tenetur!",
+          "messageBy": "client"
+        },
+        {
+          "date": "2022-03-21T13:37:27+00:00",
+          "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, tenetur!",
+          "messageBy": "support"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "ticketNo": 2773068302,
+      "name": "Ever Melisandre",
+      "assignedTo": "Ferrara Clifford",
+      "subject": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "status": "Pending",
+      "role": "Driver",
+      "date": "2022-03-12T13:37:27+00:00",
+      "history": [
+        {
+          "date": "2022-03-12T13:37:27+00:00",
+          "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit, tenetur!",
+          "messageBy": "client"
+        },
+        {
+          "date": "2022-03-21T13:37:27+00:00",
+          "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, tenetur!",
+          "messageBy": "support"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "ticketNo": 6217249862,
+      "name": "Ferrara Clifford",
+      "assignedTo": "Rossini Frances",
+      "subject": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "status": "New",
+      "role": "Passenger",
+      "date": "2022-03-12T13:37:27+00:00",
+      "history": [
+        {
+          "date": "2022-03-12T13:37:27+00:00",
+          "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit, tenetur!",
+          "messageBy": "client"
+        },
+        {
+          "date": "2022-03-21T13:37:27+00:00",
+          "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, tenetur!",
+          "messageBy": "support"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "ticketNo": 4453054177,
+      "name": "Rossini Frances",
+      "assignedTo": "Daenerys Targaryen",
+      "subject": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "status": "Resolved",
+      "role": "Driver",
+      "date": "2022-03-12T13:37:27+00:00",
+      "history": [
+        {
+          "date": "2022-03-12T13:37:27+00:00",
+          "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit, tenetur!",
+          "messageBy": "client"
+        },
+        {
+          "date": "2022-03-21T13:37:27+00:00",
+          "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, tenetur!",
+          "messageBy": "support"
+        }
+      ]
+    }
+  ],
+  "mockDataRewards": [
+    {
+      "rewardAmount": 5000,
+      "acceptanceRate": 80,
+      "minimumRating": 4.5,
+      "minimumTrips": 15,
+      "rewardTitle": "New reward",
+      "date": "2023-05-08T21:29:25.340Z",
+      "id": 1
+    }
+  ],
+  "mockDataBarChart": [
+    {
+      "date": "Monday",
+      "cancelledRides": 9,
+      "cancelledRidesColor": "hsl(136, 70%, 50%)",
+      "completedRides": 14,
+      "completedRidesColor": "#42ba96"
+    },
+    {
+      "date": "Tuesday",
+      "cancelledRides": 11,
+      "cancelledRidesColor": "hsl(350, 70%, 50%)",
+      "completedRides": 18,
+      "completedRidesColor": "hsl(207, 70%, 50%)"
+    },
+    {
+      "date": "Wednesday",
+      "cancelledRides": 8,
+      "cancelledRidesColor": "hsl(107, 70%, 50%)",
+      "completedRides": 15,
+      "completedRidesColor": "hsl(44, 70%, 50%)"
+    },
+    {
+      "date": "Thursday",
+      "cancelledRides": 10,
+      "cancelledRidesColor": "hsl(66, 70%, 50%)",
+      "completedRides": 18,
+      "completedRidesColor": "hsl(179, 70%, 50%)"
+    },
+    {
+      "date": "Friday",
+      "cancelledRides": 18,
+      "cancelledRidesColor": "hsl(268, 70%, 50%)",
+      "completedRides": 15,
+      "completedRidesColor": "hsl(149, 70%, 50%)"
+    },
+    {
+      "date": "Saturday",
+      "cancelledRides": 7,
+      "cancelledRidesColor": "hsl(299, 70%, 50%)",
+      "completedRides": 15,
+      "completedRidesColor": "hsl(37, 70%, 50%)"
+    },
+    {
+      "date": "Sunday",
+      "cancelledRides": 14,
+      "cancelledRidesColor": "hsl(82, 70%, 50%)",
+      "completedRides": 17,
+      "completedRidesColor": "hsl(101, 70%, 50%)"
+    }
+  ],
+  "mockDataLineChart": [
+    {
+      "id": "earnings",
+      "color": "hsl(105, 70%, 50%)",
+      "data": [
+        {
+          "x": "Monday",
+          "y": 4100
+        },
+        {
+          "x": "Tuesday",
+          "y": 15600
+        },
+        {
+          "x": "Wednesday",
+          "y": 7000
+        },
+        {
+          "x": "Thursday",
+          "y": 14300
+        },
+        {
+          "x": "Friday",
+          "y": 18800
+        },
+        {
+          "x": "Saturday",
+          "y": 23800
+        },
+        {
+          "x": "Sunday",
+          "y": 8900
+        }
+      ]
+    }
+  ]
+}

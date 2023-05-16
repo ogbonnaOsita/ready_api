@@ -99,7 +99,7 @@
       "email": "jonsnow@gmail.com",
       "phone": "(665)121-5454",
       "address": "0912 Won Street, Alabama, SY 10001",
-      "status": "active",
+      "status": "pending",
       "rating": 4.5,
       "rides": {
         "booked": 10011,
@@ -136,7 +136,7 @@
       "email": "cerseilannister@gmail.com",
       "phone": "(421)314-2288",
       "address": "1234 Main Street, New York, NY 10001",
-      "status": "active",
+      "status": "pending",
       "rating": 4.7,
       "rides": {
         "booked": 13151,
@@ -173,7 +173,7 @@
       "email": "jaimelannister@gmail.com",
       "phone": "(422)982-6739",
       "address": "3333 Want Blvd, Estanza, NAY 42125",
-      "status": "active",
+      "status": "pending",
       "rating": 5,
       "rides": {
         "booked": 15634,
